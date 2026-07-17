@@ -93,8 +93,6 @@ header {
   gap: var(--sp-300);
 
   text-align: center;
-
-  padding-bottom: var(--sp-800);
 }
 
 h1 {
@@ -165,7 +163,8 @@ span {
     background-color: white;
 
     margin-bottom: var(--sp-800);
-    margin-top: var(--sp-1000);
+    margin-top: calc(var(--sp-800) + var(--sp-800));
+    
 }
 
 .steps::before {
@@ -182,4 +181,50 @@ span {
     top: -80px;
 
     transform: translateX(-50%);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+
+  gap: var(--sp-800);
+}
+
+.images-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--sp-200);
+}
+
+.images-grid-container img {
+  border-radius: 10px;
+}
+
+.h2-container {
+  display: flex;
+  flex-direction: column;
+  
+
+  text-align: center;
+}
+
+h3 {
+  color: var(--cyan-600);
+
+  font-size: var(--fs-h3-300);
+  font-weight: var(--fw-black);
+  line-height: var(--lh-110);
+  letter-spacing: var(--ls);
+
+  padding-bottom: var(--sp-200);
+}
+
+h2 {
+  color: var(--slate-900);
+
+  font-size: var(--fs-h2-300);
+  font-weight: var(--fw-black);
+  line-height: var(--lh-110);
+
+  padding-bottom: var(--sp-400);
 }
