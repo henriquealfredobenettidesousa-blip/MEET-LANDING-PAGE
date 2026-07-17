@@ -86,6 +86,11 @@ header {
   display: none;
 }
 
+.hero-images-container {
+  width: calc(100% + 64px);
+  margin-left: -31px;
+}
+
 .h1-container {
   display: flex;
   flex-direction: column;
@@ -93,6 +98,8 @@ header {
   gap: var(--sp-300);
 
   text-align: center;
+
+  padding-inline: var(--sp-400);
 }
 
 h1 {
@@ -194,6 +201,8 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: var(--sp-200);
+
+  padding-inline: var(--sp-400);
 }
 
 .images-grid-container img {
@@ -208,6 +217,7 @@ main {
   text-align: center;
 
   padding-bottom: var(--sp-800);
+  padding-inline: var(--sp-400);
 }
 
 h3 {
