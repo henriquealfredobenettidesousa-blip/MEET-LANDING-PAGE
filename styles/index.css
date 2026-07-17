@@ -1,0 +1,65 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  font-family: "Red Hat Display", sans-serif;
+}
+
+:root {
+  /* COLORS */
+  --cyan-300: hsl(192deg 90% 77%);
+  --cyan-600: hsl(192deg 37% 48%);
+  --purple-300: hsl(268deg 100% 86%);
+  --purple-600: hsl(268deg 34% 53%);
+  --slate-300: hsl(240deg 18% 85%);
+  --slate-600: hsl(240deg 10% 57%);
+  --slate-900: hsl(240deg 21% 20%);
+  --white: hsl(0deg 0% 98%);
+
+  /* TYPOGRAPHY PRESET1 */
+  --fs-h1-300: 2.5rem;
+  --fs-h1-600: 3rem;
+  --fs-h1-900: 4rem;
+
+  --fw-black: 900;
+
+  --lh-110: 110%;
+
+  /* TYPOGRAPH PRESET2 */
+  --fs-h2-300: 2rem;
+  --fs-h2-600: 2.25rem;
+  --fs-h2-900: 2.5rem;
+
+  /* TYPOGRAPH PRESET3 */
+  --fs-h3-300: 0.75rem;
+  --fs-h3-600: 0.875rem;
+  --fs-h3-900: 1rem;
+
+  --ls: 0.25rem;
+
+  /* TYPOGRAPH PRESET4 */
+  --fs-p-600: 1rem;
+  --fs-p-900: 1.125rem;
+
+  --fw-medium: 500;
+
+  /* TYPOGRAPH PRESET5 */
+  --fs-button: 1rem;
+  --lh-button: 150%;
+  
+  /* SPACING */
+  --sp-50: 0.25rem;
+  --sp-100: 0.5rem;
+  --sp-200: 1rem;
+  --sp-300: 1.5rem;
+  --sp-400: 2rem;
+  --sp-500: 2.5rem;
+  --sp-700: 3.5rem;
+  --sp-800: 4rem;
+  --sp-900: 4.5rem;
+  --sp-1000: 5rem;
+  --sp-1400: 7rem;
+}
