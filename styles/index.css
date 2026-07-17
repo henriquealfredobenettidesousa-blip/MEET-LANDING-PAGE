@@ -93,6 +93,8 @@ header {
   gap: var(--sp-300);
 
   text-align: center;
+
+  padding-bottom: var(--sp-800);
 }
 
 h1 {
@@ -140,4 +142,44 @@ span {
 
 .question-link {
   background-color: var(--purple-600);
+}
+
+.steps {
+    position: relative;
+
+    color: var(--slate-600);
+    font-size: var(--fs-button);
+    font-weight: var(--fw-black);
+
+    width: 56px;
+    height: 56px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-inline: auto;
+
+    border: 2px solid var(--slate-300);
+    border-radius: 50%;
+    background-color: white;
+
+    margin-bottom: var(--sp-800);
+    margin-top: var(--sp-1000);
+}
+
+.steps::before {
+    content: "";
+
+    position: absolute;
+
+    width: 2px;
+    height: 80px;
+
+    background-color: var(--slate-300);
+
+    left: 50%;
+    top: -80px;
+
+    transform: translateX(-50%);
 }
