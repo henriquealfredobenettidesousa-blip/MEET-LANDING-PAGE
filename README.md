@@ -25,7 +25,7 @@ Users should be able to:
 ### Screenshot
 
 ![Final Result Print](./assets/desktop/result-print-1.png)
-![Final Result Print](./assets/desktop/)
+![Final Result Print](./assets/desktop/result-print-2.png)
 
 ### Links
 
